@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel="stylesheet" type="text/css" href="admindash.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<style type="text/css">
+ /* input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+*/
+
+/* Set a style for all buttons */
+button {
+  padding: 12px 34px;
+  margin-left: 35%;
+  width: 100%;
+  color: white;
+  border:1px solid rgb(0,255,255);
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-top: 15%;
+  font-size: 25px;
+}
+.sec {
+  border:1px solid    #FFFF00;
+}
+
+button:hover {
+  opacity:1;
+  border:1px solid green;
+  background: green;
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.sec {
+  position: absolute;
+  top: 8%;
+  left:30%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  overflow: auto;
+
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 1px;
+  overflow: auto;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color:white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin-left: 33%;
+  width: 55%;
+  overflow: auto; /* Could be more or less, depending on screen size */
+}
+
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 15%;
+  top: 80px;
+  font-size: 40px;
+  font-weight: red;
+  color: blue;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close:hover{
+  color: red;
+}
+
+
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.body .fa{
+  font-size: 50px;
+  padding-left: 30px;
+  opacity: 0.7;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    outline: none;
+    background: none;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    border-bottom: 1px solid green;
+}
+p{
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 16px;
+    margin-top: 15px;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+}h2{
+  text-align: center;
+  color: green;
+}
+.container a
+{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 20px;
+    color:green;
+    margin: 60px;
+    padding-left: 30%;
+    cursor: pointer;
+}
+.container a:hover{
+    color:red; 
+    transition: 0.5s;
+}
+.submit button{
+  transform: translate(0%,-80%);
+  padding: 12px 34px;
+  margin-left: 30%;
+  width: 40%;
+  color: white;
+  background: blue;
+  cursor: pointer;
+  font-size: 25px;
+  border:none;
+}
+.submit button:hover{
+  opacity:1;
+  border:1px solid rgb(255,69,0);
+  background: rgb(255,69,0);
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.modal-content1{
+  background-color:white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin-left: 20%;
+  width: 75%;
+  overflow: auto; /* Could be more or less, depending on screen size */
+}
+.close1{
+  position: absolute;
+  right: 6%;
+  top: 70px;
+  font-size: 40px;
+  font-weight: red;
+  color: pink;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close1:hover{
+  color: red;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+table:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}
+th{
+  border: 2px solid pink;
+  background :linear-gradient(rgb(255,255,224,0.5),rgb(255,255,224,0.7));
+  font-size: 20px;
+  color: black;
+  padding: 15px; 
+}
+td{
+  width: 100%;
+  font-size: 20px;
+  border:1px solid white;
+  color: white;
+  background :transparent;
+   padding: 15px;
+
+</style>
+</head>
+<body>
+ <div class="sidesec">
+    <div class="header">
+        <h1>Admin page!!</h1>
+        <a href=""><i class="fa fa-sign-out" ></i>logeout</a>
+    </div>
+     <nav class="sidebar">
+            <div class="nav-link">    
+                <ul>
+                    <li><i class="fa fa-home"></i><a href="admindash.html" >Home</a></li>
+                   <li><i class="fa fa-columns" ></i><a href="class.html" >Class </a></li>
+                   <li><i class="fa fa-graduation-cap"></i><a href="students.html" >Students</a></li>
+                   <li><i class="fa fa-tags" ></i><a href="" >Perfomence</a></li>
+                    
+                </ul>
+            </div>
+    </nav>
+    <div class="body">
+
+      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Create class <i class="fa fa-envelope-open"></i></button>
+       <button class="sec"onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Manage class <i class="fa fa-pencil-square-o"></i></button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="addclass.php" method="post">
+    <div class="container">
+      <h2>Please fill in this form to create a class.</h2>
+      <p>Class ID:</p>
+            <input type="number" name="classid" placeholder="Enter class id number" required="">
+
+            <p>Class Name:</p>
+            <input type="text" name="classname" placeholder="Enter Class name" required=""><br></br>
+
+            <p>Section:</p>
+            <input type="text" name="section" placeholder="Enter section name" required="">
+            <p>Incharge Name:</p>
+            <input type="text" name="incharge" placeholder="Enter incharge name" required="">
+            <div class="submit">
+             <button type="submit" class="registerbtn" value="Register">Register</button>
+             </div>
+            <a onclick="document.getElementById('id01').style.display='none'" ><b>back to home!</b></a><br><br>     
+    </div>
+  </form>
+</div>
+
+<div id="id02" class="modal">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close1" title="Close Modal">&times;</span>
+
+  <form class="modal-content1" action="displayclass.php" method="post">
+    <div class="container">
+      
+<table>
+<div class="table"> 
+<tr>
+<th>S.no</th>
+<th>Class id</th>
+<th>Class name</th>
+<th>Section</th>
+<th>Incharge</th>
+<th>Update</th>
+<th>Delete</th>
+</tr>
+</div>
+      
+</table>
+</div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>

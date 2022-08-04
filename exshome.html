@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0,0,0);
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-bottom: 7px;
+   box-shadow: 0 0 10px 0px rgba(0,0,0,0.9);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#logout{
+  float: right;
+  background:   rgb(30,144,255);
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin:4px;
+  margin-right: 20px;
+}
+span{
+  font-size: 18px;
+  font-weight: 800;
+}
+.topnav a:hover {
+  background-color:  rgb(30,144,255);
+  color: white;
+}
+
+.topnav a.active {
+  background-color:  rgb(30,144,255);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.box{
+    background:rgb(192,192,192);
+    color: black;
+    height: 75%;
+    width: 97%;
+    position: fixed;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  body{
+    margin: 10px;
+  }
+  #logout{
+      padding: 8px 8px;
+      float: left;
+      margin-top:6px;
+      margin-right: 4px;
+  }
+  .box{
+    width: 95%;
+  }
+}
+
+</style>
+</head>
+<body>
+<span id="welcome">WELCOME!!</span>
+<div class="topnav" id="myTopnav">
+ <a id="first"  class="active" href="" >Dashboard</a>
+  <a href="" >View Result</a>
+  <a  id="logout" href="" ><i class="fa fa-sign-out"></i>Logout</a>
+  </a>
+</div>
+<div class="box">
+</div>
+</body>
+</html>

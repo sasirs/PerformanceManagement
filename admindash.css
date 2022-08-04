@@ -1,0 +1,142 @@
+  *{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.sidesec{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(img/back10.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 4px solid gray;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.header h1{
+    font-size: 22px;
+    color: green;
+    padding-left: 3%;
+}
+.header #name{
+  font-size: 20px;
+  font-weight: 600;
+  color: green;
+  margin-left: 50px;
+}
+.header a{
+    text-decoration: none;
+    font-size: 22px;
+    color: red;
+    font-weight: 700;
+    padding-right: 2%;
+}
+.header a:hover {
+  color: blue;
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: rgb(0,0,0,0.5);
+}
+nav ul li{
+    line-height: 70px;
+    color: white;
+}
+nav ul li a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+    width: 100%;
+}
+nav ul .fa{
+    padding-left: 20px;
+    font-size: 22px;
+}
+
+nav ul.fa:hover{
+    color: #FFFF00;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: #FFFF00;
+}
+
+ nav ul li:hover{
+        border-left: 5px solid #FFFF00;
+        transition: 0.1s;
+        background:     rgb(105,105,105);
+        color: #FFFF00 ;
+ }
+ .home p{
+    color: red;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 15%;
+    font-weight: 400;
+ }
+  .home p:hover{
+    color: red;
+    font-size: 32px;
+    transition: 0.5s;
+  }
+ .home button {
+  padding: 40px 20px;
+  transform: translate(90%,100%);
+  margin-left: 8%;
+  color: white;
+  border:1px solid white;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  font-size: 25px;
+
+}
+ .home button .fa{
+    font-size: 40px;
+    opacity: 0.5;
+    margin-left: 20px;
+}
+ .home button:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.home .b1{
+     border:1px solid rgb(255,69,0);
+}
+.home .b2{
+    border:1px solid rgb(0,255,255) ;
+}
+.home .b3{
+border:1px solid rgb(255,0,255) ;
+}
+#b{
+    font-size: 30px;
+    padding-top: 5px;
+}.active{
+      color: #FFFF00;
+      background: rgb(105,105,105,0.5);
+}
+.last  {
+  font-size: 17px;
+  margin-left: 48%;
+  margin-top: 30%;
+}
+.last span p{
+ color: gray;
+}
+.last i{
+  color: green;
+  padding: 10px;
+}

@@ -1,0 +1,68 @@
+body {
+  margin: 30px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 100px;
+}
+.box{
+    background:rgb(192,192,192);
+    color: black;
+    top: 12%;
+    height: 80%;
+    width: 95.5%;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+nav{
+   background: rgb(0,0,0);
+   width: 100%;
+   position: relative;
+   border-radius: 10px;
+   box-shadow: 0 0 10px 0px rgba(0,0,0,0.9);
+   overflow: hidden;
+}
+nav span{
+  color: white;
+  font-size: 18px;
+  margin-left: 10%;
+}
+#welcome{
+  font-weight: 600;
+}
+nav a{
+  display: inline-flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+}
+#first{
+  margin-left: 45%;
+  background:  rgb(30,144,255);
+}
+#logout {
+  margin-left: 100px;
+  padding: 7px;
+  background:   rgb(30,144,255);
+  border-radius: 12px;
+  border-width: 8px;
+}
+nav a:hover{
+  min-height: 10px;
+ background-color: rgb(30,144,255) ;
+}
+.fa{
+  margin-right: 5px;
+}
+@media (max-width: 700px){
+
+  nav {
+    width: 80%;
+    display: block;
+  }
+  .box{
+    width: 40%;
+  }
+ }

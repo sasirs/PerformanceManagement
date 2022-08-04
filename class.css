@@ -1,0 +1,243 @@
+  button {
+  padding: 12px 34px;
+  margin-left: 35%;
+  width: 100%;
+  color: white;
+  border:1px solid rgb(0,255,255);
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-top: 15%;
+  font-size: 25px;
+}
+.sec {
+  border:1px solid    #FFFF00;
+}
+
+button:hover {
+  opacity:1;
+  border:1px solid green;
+  background: green;
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.sec {
+  position: absolute;
+  top: 8%;
+  left:30%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  overflow: none;
+
+}
+.container1 {
+  padding: 16px;
+  overflow: none;
+
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 1px;
+  overflow: none;
+}
+.modal-content{
+   background-color:white;
+  margin-left: 25%;
+  position: fixed;
+  top: 60px;
+  bottom: 10px;
+  width: 70%;
+  overflow-x: hidden;
+  overflow-y:auto; /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  top: 10px;
+  left: 90%;
+  font-size: 40px;
+  font-weight: red;
+  color: blue;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close:hover{
+  color: red;
+}
+
+
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.body .fa{
+  font-size: 50px;
+  padding-left: 30px;
+  opacity: 0.7;
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    outline: none;
+    background: none;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: black;
+    border-bottom: 1px solid green;
+}
+p{
+    width: 100%;
+    font-size: 20px;
+    color: green;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+}h2{
+  text-align: center;
+  color: green;
+}
+.container a
+{
+    width: 100%;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color:green;
+    margin-left: 44%;
+    position: absolute;
+     bottom: -600px;
+    cursor: pointer;
+
+}
+.container a:hover{
+    color:red; 
+    transition: 0.5s;
+}
+.submit button{
+  padding: 12px 34px;
+  margin-left: 30%;
+  transform: translate(10%,-200%);
+  width: 40%;
+  color: white;
+  background: blue;
+  cursor: pointer;
+  font-size: 25px;
+  border:none;
+}
+.submit button:hover{
+  opacity:1;
+  border:1px solid rgb(255,69,0);
+  background: rgb(255,69,0);
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 1px;
+  overflow: none;
+}
+.modal-content1{
+   background-color:white;
+  margin-left: 25%;
+  position: fixed;
+  top: 60px;
+  bottom: 10px;
+  width: 70%;
+  min-height: 50vh;
+  overflow: auto; /* Could be more or less, depending on screen size */
+}
+.close1{
+  position: absolute;
+  right: 6%;
+  top: 10px;
+  font-size: 40px;
+  font-weight: red;
+  color: green;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close1:hover{
+  color: red;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+/*table:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}*/
+th{
+  border: 1px solid black;
+ background :linear-gradient(rgb(255,255,224),  rgb(124,252,0));
+  font-size: 20px;
+  color: black;
+  padding: 10px; 
+}
+td{
+   font-size: 18px;
+  border:1px solid black;
+  color: black;
+  font-weight: 300;
+  background :transparent;
+   padding: 5px;
+ }
+.container1 a{
+  color: white;
+  border: 1px solid red;
+  background-color: red ;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  
+}
+.container1 a:hover{
+  background-color: blue;
+  border: 1px solid blue;
+}

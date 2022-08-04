@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.92)),url(img/back9.jpg);
+    overflow: none;
+}
+.header-admin{
+    width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(img/back10.jpg)
+}
+.box{
+     width: auto;
+     
+    overflow: none;
+    height: auto;
+    left: 38%;
+    top: 5%;
+    padding:70px 30px;
+    position: absolute;  overflow: none;
+    border-radius: 30px;   
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);  
+}
+
+.user{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    overflow: none;
+}
+
+h1{
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 20%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+h1::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 4px;
+    background: green;
+    margin: auto;
+    transition: 0.5s;
+}
+h1:hover::after{
+    width: 80%;
+}
+p{
+    width: 100%;
+    font-size: 21px;
+    color: white;
+    margin-bottom: 16px;
+    margin-top: 15px;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    outline: none;
+    background: none;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+input[type="number"]
+{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid white;
+}
+    input[type="submit"]
+{
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid white;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+input[type="date"]{
+    color: gray;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover
+{
+    background: green;
+    border:1px green;
+    transition: 0.8s;
+}
+a
+{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+    color:white;
+    margin: 60px;
+}
+a:hover{
+    color:green; 
+    transition: 0.5s;
+}
+@media(max-width: 700px){
+    .box{
+        left: 8%;
+    }
+}

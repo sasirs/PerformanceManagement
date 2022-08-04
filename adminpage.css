@@ -1,0 +1,243 @@
+ button {
+  padding: 12px 34px;
+  margin-left: 35%;
+  width: 100%;
+  color: white;
+  border:1px solid rgb(0,255,255);
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-top: 15%;
+  font-size: 25px;
+}
+.sec {
+  border:1px solid    #FFFF00;
+}
+
+button:hover {
+  opacity:1;
+  border:1px solid green;
+  background: green;
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.sec {
+  position: absolute;
+  top: 8%;
+  left:30%;
+}
+.container {
+  padding: 16px;
+  overflow: none;
+
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 1px;
+  overflow: none;
+}
+.modal-content{
+   background-color:white;
+  margin-left: 35%;
+  position: fixed;
+  top: 100px;
+  bottom: 10px;
+  width: 40%;
+  height: 60%;
+  overflow-x: none;
+  overflow-y:none; /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  top: 10px;
+  left: 90%;
+  font-size: 40px;
+  font-weight: red;
+  color: blue;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close:hover{
+  color: red;
+}
+input{
+    width: 90%;  
+    outline: none;
+    background: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    border: 1px solid green;
+    font-size: 16px;
+    padding: 7px 3px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+}
+p{
+    width: 100%;
+    font-size: 20px;
+    color: green;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+}
+
+.submit button{
+  padding: 5px 20px;
+  margin-left: 30%;
+  transform: translate(10%,-100%);
+  width: 30%;
+  color: white;
+  background: blue;
+  cursor: pointer;
+  font-size: 22px;
+  border:none;
+  border-radius: 10px;
+}
+
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 1px;
+  overflow: none;
+}
+.modal-content1{
+   background-color:white;
+  margin-left: 25%;
+  position: fixed;
+  top: 60px;
+  bottom: 10px;
+  width: 70%;
+  min-height: 50vh;
+  overflow: auto; /* Could be more or less, depending on screen size */
+}
+.close1{
+  position: absolute;
+  right: 6%;
+  top: 10px;
+  font-size: 40px;
+  font-weight: red;
+  color: green;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close1:hover{
+  color: red;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+/*table:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}*/
+th{
+  border: 1px solid black;
+ background :linear-gradient(rgb(255,255,224),  rgb(124,252,0));
+  font-size: 20px;
+  color: black;
+  padding: 10px; 
+}
+td{
+   font-size: 18px;
+  border:1px solid black;
+  color: black;
+  font-weight: 300;
+  background :transparent;
+   padding: 5px;
+ }
+.container1 a{
+  color: white;
+  border: 1px solid red;
+  background-color: red ;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  position: relative;
+  left: 10px;
+  
+}
+.container1 a:hover{
+ opacity:1;
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+}
+.container1 {
+  padding: 16px;
+  overflow: none;
+
+}
+.back a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border: 5px solid green;
+  background-color: green;
+padding: 5px 20px;
+}
+
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 1px;
+  overflow: auto;
+}
+.modal-content3{
+   background-color:white;
+  margin-left: 25%;
+  position: fixed;
+  top: 60px;
+  bottom: 10px;
+  width: 70%;
+  overflow: none;
+}
+.container3{
+  margin: 3%;
+  overflow: auto;
+}
+.container3 h2{
+  text-align: center;
+  color: green;
+}
+.container3 button{
+  padding: 5px 20px;
+  margin-left: 30%;
+  transform: translate(10%,-300%);
+  width: 30%;
+  color: white;
+  background: green;
+  cursor: pointer;
+  font-size: 22px;
+  border:none;
+  border-radius: 10px;
+}

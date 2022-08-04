@@ -1,0 +1,146 @@
+body {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0,0,0);
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-bottom: 7px;
+   box-shadow: 0 0 10px 0px rgba(0,0,0,0.9);
+   overflow: none;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+#logout{
+  float: right;
+  background:   rgb(30,144,255);
+  border-radius: 12px;
+  padding: 10px 20px;
+  margin:4px;
+  margin-right: 20px;
+}
+#logout:hover{
+  background-color: red;
+}
+span{
+  font-size: 18px;
+  font-weight: 800;
+}
+.topnav a:hover {
+  background-color:  rgb(30,144,255);
+  color: white;
+}
+
+.topnav a.active {
+  background-color:  rgb(30,144,255);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.box{
+    background:rgb(192,192,192);
+    color: black;
+    height: 73%;
+    width: 97%;
+    position: fixed;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: none;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 35%;
+}
+
+td{
+  font-size: 22px;
+  color: black;
+  padding: 10px; 
+  text-align: left;
+  font-weight: 600;
+}
+ button {
+  padding: 12px 32px;
+  width: 13%;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  background-color:  rgb(30,144,255);
+  border: 1px solid rgb(30,144,255);
+  font-size: 22px;
+  border-radius: 10px;
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+button:hover{
+  background-color: green;
+  border: 1px solid green;
+}
+.last  {
+  font-size: 17px;
+  margin-top: 37%;
+  padding-left: 79%;
+}
+.last  p{
+ color: gray;
+}
+.last i{
+  color: red;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  body{
+    margin: 10px;
+  }
+  .topnav a {
+    font-size: 17px;
+  }
+  #logout{
+      padding: 8px 8px;
+      float: right;
+      margin-top:6px;
+      margin-right: 4px;
+      margin-left: 50px;
+  }
+  .box{
+    width: 95%;
+  }
+  table{
+    font-weight: 20%;
+     margin-left: 20%;
+  }
+  td{
+    font-size: 16px;
+  }
+  button{
+    margin-top: 10%;
+    font-size: 16px;
+    width: 40%;
+  }
+  .last  {
+  font-size: 12px;
+  transform: translate(-40%,600%);
+}
+}

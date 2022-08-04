@@ -1,0 +1,247 @@
+.tableinputs input{ 
+    width: 100%;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    border:none;
+    text-align: center;
+    outline: none;
+}
+.tableinputs input[type="button"] {
+
+  width: 100%;
+  color: white;
+  background:   #FF8C00;
+  border:1px solid  #FF8C00;
+  cursor: pointer;
+  position: relative;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.save {
+  color: white;
+  border:1px solid blue;
+  background: blue;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 400;
+   padding: 12px 34px;
+}
+.save:hover {
+  opacity:1;
+  border:1px solid green;
+  background: green;
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 1px;
+  overflow: none;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color:white;
+  margin-left: 20%;
+  margin-right: 3%;
+  position: fixed;
+  top: 60px;
+  bottom: 10px;
+  width: 78%;
+  min-height: 50vh;
+  overflow: auto; /* Could be more or less, depending on screen size */
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 92%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+/*table:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.7);
+}*/
+th{
+  border: 1px solid black;
+ background :linear-gradient(rgb(255,255,224),  rgb(124,252,0));
+  font-size: 18px;
+  color: black;
+  padding: 10px; 
+
+}
+td{
+  font-size: 18px;
+  border:1px solid black;
+  color: black;
+  font-weight: 300;
+  background :transparent;
+   padding: 10px;
+}
+.container1 a{
+  color: blue;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 20%;
+}
+.container1 a:hover{
+  color: red;
+  }
+
+.sec {
+  border:1px solid    #FFFF00;
+}
+button {
+  padding: 12px 34px;
+  margin-left: 35%;
+  width: 100%;
+  color: white;
+  border:1px solid rgb(0,255,255);
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+  margin-top: 15%;
+  font-size: 25px;
+}
+button:hover {
+  opacity:1;
+  border:1px solid green;
+  background: green;
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.sec {
+  position: absolute;
+  top: 8%;
+  left:30%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+  overflow: auto;
+
+}
+
+/* The Modal (background) */
+
+/* The Close Button (x) */
+.close {
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 15%;
+  color: blue;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close:hover{
+  color: red;
+}
+
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.body .fa{
+  font-size: 50px;
+  padding-left: 30px;
+  opacity: 0.7;
+}
+input{
+   
+}
+label{
+    width: 100%;
+    font-size: 20px;
+    color: green;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+}h2{
+  text-align: center;
+  padding-left: 10%;
+  color: green;
+}
+.submit button{
+  margin-top: 5%;
+  padding: 12px 34px;
+  margin-left: 30%;
+  width: 40%;
+  color: white;
+  background: blue;
+  cursor: pointer;
+  font-size: 25px;
+  border:none;
+}
+.submit button:hover{
+  opacity:1;
+  border:1px solid rgb(255,69,0);
+  background: rgb(255,69,0);
+  color: white;
+   box-shadow: 0 0 20px 0px rgba(0,0,0,0.9);
+}
+.modal-content1{
+  background-color:white;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin-left: 20%;
+  width: 75%;
+ min-height: 80vh;
+  overflow: auto; /* Could be more or less, depending on screen size */
+}
+.close1{
+  position: absolute;
+  padding-right: 0px;
+  top: 70px;
+  font-size: 40px;
+  font-weight: red;
+  color: green;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.close1:hover{
+  color: red;
+}
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */ /* Enable scroll if needed */
+  background-color: transparent;
+  padding-top: 1px;
+  overflow: auto;
+}
